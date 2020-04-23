@@ -66,7 +66,7 @@ public class tryyy
     {
        tryyy tr=new tryyy(); 
        //int[][] prerequisites={{1,0},{0,1}};
-       int[][] prerequisites={{1,2},{0,1},{1,3},{1,4},{2,3},{3,0}};
+       int[][] prerequisites={{1,2},{0,1},{1,3},{1,4},{2,3}};
        boolean ans=tr.canFinish(5,prerequisites);
        System.out.println(ans);           
     }
