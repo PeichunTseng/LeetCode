@@ -10,8 +10,6 @@ import java.util.HashMap;
 
 public class tryyy
 {
-
-/////////////////////Time Limit Exceeded////////////////////
   public int evalRPN(String[] tokens) {
       int a,b;
       Stack<Integer> stack = new Stack<Integer>();
