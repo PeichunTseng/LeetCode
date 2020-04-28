@@ -11,8 +11,6 @@ import java.util.LinkedList;
 
 public class tryyy
 {
-
-
         /** Initialize your data structure here. */
         
         Queue<Integer> q;
