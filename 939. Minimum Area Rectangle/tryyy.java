@@ -25,7 +25,6 @@ public class tryyy
                     continue;
                 else if(map.get(points[i][0]).contains(points[j][1]) && map.get(points[j][0]).contains(points[i][1]))
                     min=Math.min(min,Math.abs(points[i][0]-points[j][0])*Math.abs(points[i][1]-points[j][1]));
-
             }
         }
         return min==Integer.MAX_VALUE?0:min;
