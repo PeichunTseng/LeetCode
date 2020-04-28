@@ -16,7 +16,6 @@ public class tryyy
 {
     private TreeNode  root;
 
-
     public static class TreeNode {
         public int val;
         public TreeNode left;
