@@ -21,7 +21,7 @@ public class tryyy
   //         map=new HashMap<>();
   //         id=0;
   //     }
-      
+  
   //     public void set(int index, int val) {
   //         arr[index]=val;
   //     }
