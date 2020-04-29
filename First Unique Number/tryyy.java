@@ -14,6 +14,50 @@ import java.util.Stack;
 
 public class tryyy
 {
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Arrays;
+import java.util.Set;
+import java.util.HashSet;
+import java.util.TreeSet;
+import java.util.Iterator;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Stack;
+import java.util.LinkedHashSet;
+
+
+
+public class tryyy
+{
+
+////////////////////////Solution use LinkedHashSet()//////////////////////
+//A LinkedHashSet is an ordered version of HashSet that maintains a doubly-linked List across all elements.
+    // Set<Integer> set;
+    // Map<Integer,Boolean> map;
+    // public tryyy(int[] nums){
+    //   set = new LinkedHashSet<>();
+    //   map = new HashMap<>();
+    //   for(int a:nums)
+    //     add(a);
+    // }
+    // public int showFirstUnique(){
+    //   if(set.size()==0)
+    //     return -1;
+    //   return set.iterator().next();
+    // }
+    // public void add(int value){
+    //   if(!map.containsKey(value)){
+    //     map.put(value,true);
+    //     set.add(value);
+    //   }
+    //   else if(map.get(value)){
+    //     map.put(value,false);
+    //     set.remove(value);
+    //   }
+    //   else if(!map.get(value))
+    //     return;
+    // }
 ////////////////////////Mine//////////////////////
     private Node first;
     private Node end;
