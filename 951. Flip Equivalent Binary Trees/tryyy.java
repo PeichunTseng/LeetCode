@@ -17,8 +17,6 @@ import java.util.LinkedList;
 public class tryyy
 {
     private TreeNode  root;
-
-
     public static class TreeNode 
     {
         public int val;
@@ -123,8 +121,6 @@ public class tryyy
     }
 
 
-
-
     public static void main(String[] args) 
     {
        tryyy tr1=new tryyy(); 
@@ -138,9 +134,6 @@ public class tryyy
        boolean ans=tr1.flipEquiv(tr1.root,tr2.root);
        System.out.println(ans);             
     }
-
-
-
 }
 
 
