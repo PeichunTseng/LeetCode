@@ -25,17 +25,14 @@ public class tryyy
     //     {
     //         //int[] tem= nums;
     //         for(int j=0;j<res.length;j++)
-    //         {
-            
+    //         {        
     //         if(j==i)
     //              res[i] *=1;
     //         else
     //             res[i] *=nums[j];
     //         }
-    //     }
-        
-    //     return res;
-        
+    //     }        
+    //     return res;        
     // }
 
     
@@ -90,8 +87,6 @@ public class tryyy
         
     }
 
-
-
     public static void main(String[] args) 
     {
        tryyy tr=new tryyy();
@@ -99,12 +94,7 @@ public class tryyy
        int[] b=tr.productExceptSelf(a);
        for (int i = 0; i < b.length; i++) 
           System.out.println(b[i]);
-             
-
     }
-
-
-
 }
 
 
