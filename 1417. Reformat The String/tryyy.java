@@ -44,20 +44,15 @@ public class tryyy
         return sb.toString();
     }
 
-
-
-
-
+  
     public static void main(String[] args) 
     {
        tryyy tr=new tryyy(); 
        String s="covid2019";
 
        String ans =tr.reformat(s);
-       System.out.println(ans);
-               
+       System.out.println(ans);            
     }
-
 }
 
 
