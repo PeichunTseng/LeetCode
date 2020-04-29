@@ -14,7 +14,6 @@ import java.util.TreeMap;
 import java.util.TreeSet;
 public class tryyy
 {
-
 ///////////////////////////較好解/////////////////////////////
     public int search(int[] nums, int target){
         int start=0;
@@ -39,19 +38,14 @@ public class tryyy
         return -1;
     }
 
-
-
-
     public static void main(String[] args) 
     {
        tryyy tr=new tryyy(); 
        int[] nums = {4,5,6,7,0,1,2};
        int target = 0;
        int ans =tr.search(nums,target);
-       System.out.println(ans);
-               
+       System.out.println(ans);             
     }
-
 }
 
 
