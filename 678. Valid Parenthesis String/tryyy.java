@@ -62,7 +62,6 @@ public class tryyy
         return low==0;
     }
 
-
     public static void main(String[] args) 
     {
        tryyy tr=new tryyy(); 
