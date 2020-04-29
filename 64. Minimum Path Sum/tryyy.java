@@ -73,20 +73,13 @@ public class tryyy
       return grid[col][row];
   }
 
-
-   
-
+  
     public static void main(String[] args) 
     {
       tryyy tr=new tryyy();
       int[][] a={{1,3,1},
                   {1,5,1},
                   {4,2,1}};
-      System.out.println(tr.minPathSum(a));//答案7
-      
-
+      System.out.println(tr.minPathSum(a));//7
     }
-
-
-
 }
