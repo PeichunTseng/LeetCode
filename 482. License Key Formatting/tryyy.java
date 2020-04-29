@@ -33,8 +33,6 @@ public class tryyy
     }
 
 
-
-
     public static void main(String[] args) 
     {
        tryyy tr=new tryyy(); 
