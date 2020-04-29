@@ -34,7 +34,7 @@ public class tryyy
             }
         return ans;
     }
-
+    
     public static void main(String[] args) 
     {
        tryyy tr=new tryyy(); 
