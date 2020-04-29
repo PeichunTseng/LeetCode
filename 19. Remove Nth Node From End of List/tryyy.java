@@ -28,8 +28,7 @@ public class tryyy
         for(int i=1;i<input.length;i++){
             tem.next=new ListNode(input[i]);
             tem=tem.next;
-        }
-         
+        }        
     }
 
     public List<Integer> getAll()
