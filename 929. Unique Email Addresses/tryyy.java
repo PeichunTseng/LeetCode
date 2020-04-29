@@ -48,8 +48,6 @@ public class tryyy
     }
 
 
-
-
     public static void main(String[] args) 
     {
        tryyy tr=new tryyy(); 
@@ -57,7 +55,6 @@ public class tryyy
        int ans=tr.numUniqueEmails(emails);
        System.out.println(ans);             
     }
-
 }
 
 
