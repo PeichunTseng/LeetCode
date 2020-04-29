@@ -78,9 +78,6 @@ public class tryyy
     }
 
 
-
-
-
     public static void main(String[] args) 
     {
        tryyy tr=new tryyy(); 
@@ -88,8 +85,7 @@ public class tryyy
        //String croakOfFrogs = "aoocrrackk"; //-1
 
        int ans =tr.minNumberOfFrogs(croakOfFrogs);
-       System.out.println(ans);
-               
+       System.out.println(ans);             
     }
 
 }
