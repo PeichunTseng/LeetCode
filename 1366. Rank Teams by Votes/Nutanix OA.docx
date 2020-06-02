@@ -1,0 +1,52 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Collections;
+import java.util.Arrays;
+import java.util.Stack;
+import java.util.Set;
+import java.util.HashSet;
+import java.util.TreeSet;
+import java.util.Iterator;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
+import java.util.Queue;
+import java.util.PriorityQueue; 
+import java.util.LinkedList;
+
+public class tryyy
+{
+/////////////////////Mine////////////////////////
+    int start=0;
+    public String rankTeams(String[] votes) {
+        int rank=votes[0].length();
+        Map<Character,int[]> map = new HashMap<>();
+        for(String s:votes){
+            for(int i=0;i<s.length();i++){
+                char temp=s.charAt(i);
+                map.putIfAbsent(temp,new int[rank]);
+                map.get(temp)[i]++;
+            }
+        }
+        List<Character> list = new ArrayList<>(map.keySet());
+
+        Collections.sort(list,(a,b)->{
+            for(int i=0;i<rank;i++){
+                if(map.get(a)[i]!=map.get(b)[i])
+                    return map.get(b)[i]-map.get(a)[i];
+            }
+            return a-b;
+        });
+        String res="";
+        for(char ch:list)
+            res+=ch;
+        return res;       
+    }
+    
+    public static void main(String[] args){
+        tryyy tr=new tryyy();
+        String[] votes={"ABC","ACB","ABC","ACB","ACB"};
+        String ans=tr.rankTeams(votes);
+        System.out.println(ans);
+    }
+}
